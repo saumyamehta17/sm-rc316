@@ -1,0 +1,8 @@
+<h2>Chat</h2>
+<div>
+  <% unless @messages.nil? %>
+      <% @messages.each do |m| %>
+          <%= m.content %><br/>
+      <% end %>
+  <% end %>
+</div>

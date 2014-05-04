@@ -1,0 +1,4 @@
+<% publish_to "/messages/new" do %>
+$('#chat').html("<%= j render(@message)  %>")
+<% end %>
+$('#message_content').val('');
