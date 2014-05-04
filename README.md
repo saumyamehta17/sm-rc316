@@ -27,4 +27,3 @@ rails server
 ```
 rails s
 ```
-
