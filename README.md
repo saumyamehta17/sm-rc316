@@ -27,3 +27,23 @@ rails server
 ```
 rails s
 ```
+Railscast sm-rc320
+====================
+JBuilder
+```
+it help to declare JSON structure..
+JSON - Javascript object Notation used to exchanging text and storing information..
+```
+gem 'jbuilder'
+```
+It is bydefault in rails 4
+```
+Scaffolding
+```
+#todo
+```
+run server
+```
+localhost:3000/article/1.json
+It will show response , that is human readable and easy to access.
+```
